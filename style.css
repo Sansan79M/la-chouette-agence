@@ -264,6 +264,20 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+#first-paragraph, #portfolio-title {
+    font-size:22px;   
+ }
+cite {
+    font-size:20px;
+    font-style : italic;
+    color:#1F1F1F;    
+ }
+#client {
+     font-size: 15px;
+     font-style: normal;
+     color:#1F1F1F;  
+ }
+
 #bloc-8 .col-sm-3 span {
     padding: 9px;
     }
@@ -273,21 +287,6 @@ padding:14px;}
 #bloc-8 .text-center{
     margin-bottom : 20px;
 }
-
-#first-paragraph, #portfolio-title {
-    font-size:22px;   
- }
- cite {
-    font-size:20px;
-    font-style : italic;
-    color:#1F1F1F;    
- }
- #client {
-     font-size: 15px;
-     font-style: normal;
-     color:#1F1F1F;  
- }
-
 
 .voffset {
     margin-top: 30px;
@@ -499,7 +498,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 35px!important;
 }
 
 .icon-lg {
@@ -700,7 +699,7 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -878,6 +877,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+   
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -915,6 +915,7 @@ h4 {
         padding: 0 20px;
       
     }
+    
 }
 
 @media (max-width: 767px) {
@@ -1055,7 +1056,29 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .portfolio-thumb {
+    margin: auto;
+    }
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .col-sm-6 p{
+        text-align: center;
+        margin-top:10px;
+    }
+    .col-sm-4{
+        display: none;
+    }
+    iframe {
+        display: none;
+    }
 }
+
 
 @media (max-width: 400px) {
     .bloc {
@@ -1064,8 +1087,3 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
