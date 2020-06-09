@@ -264,7 +264,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-#bloc-8 a {
+#bloc-8 .col-sm-3 a, #bloc-8 .col-sm-4 a {
     min-width:48px;
     min-height:48px;}
 
