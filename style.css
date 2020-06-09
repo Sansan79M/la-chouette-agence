@@ -264,9 +264,15 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-#bloc-8 .col-sm-3 a, #bloc-8 .col-sm-4 a {
-    min-width:48px;
-    min-height:48px;}
+#bloc-8 .col-sm-3 span {
+    padding: 9px;
+    }
+#bloc-8 .col-sm-4 li {
+padding:14px;}
+ 
+#bloc-8 .text-center{
+    margin-bottom : 20px;
+}
 
 #first-paragraph, #portfolio-title {
     font-size:22px;   
@@ -719,7 +725,6 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
- 
 }
 
 h2 {
