@@ -1067,6 +1067,9 @@ h4 {
         flex-direction: row;
         justify-content: space-around;
     }
+    .col-sm-6 h2{
+        text-align: center;
+    }
     .col-sm-6 p{
         text-align: center;
         margin-top:10px;
@@ -1077,6 +1080,7 @@ h4 {
     iframe {
         display: none;
     }
+    
 }
 
 
