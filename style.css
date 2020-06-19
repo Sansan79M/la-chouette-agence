@@ -675,6 +675,32 @@ a {
     font-weight: 400;
     color: #1F1F1F!important;
 }
+/*****FOCUS**********/
+#bloc-0 a:focus{
+    border: 3px solid #9c5c3e;
+    transition: transform 300ms;
+}
+#bloc-1-hero a:focus, #bloc-5-cta a:focus{
+    transform:scale(1.25);
+    transition: all 3s ease;
+}
+
+#bloc-3-what-i-do p a:focus{
+    color: #423c38!important;
+    transition: transform 200ms;
+}
+    
+li a:focus {
+    background-color: #9c5c3e;
+}
+.col-sm-3 a:focus{
+    background-color: #9c5c3e;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+input:focus, textarea:focus{
+    background-color: #F3976C;
+}
 
 .container {
     max-width: 1000px;
