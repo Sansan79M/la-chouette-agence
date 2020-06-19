@@ -365,13 +365,21 @@ padding:14px;}
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    width: 42px;
+    height: 24px;
+    cursor:pointer;
+    position:relative;
 }
+.navbar-toggle span {
+    Width: 100%;
+    Height: 4px;
+    Background-color : black;
+    Display:block;  
+    }
 
 .navbar-toggle:hover {
     background: transparent!important;
 }
-
-
 
 .nav-invert .navbar .nav {
     float: left;
